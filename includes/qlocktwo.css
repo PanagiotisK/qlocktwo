@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     background-color: rgb(43,49,52);
     background-image: url('../images/q2bg.png');
     color: white;
@@ -8,6 +8,18 @@ body {
     -moz-user-select: none;
     cursor: default;
     overflow-y: hidden;
+    overflow-x: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  
+}
+
+#innerDiv {
+    width: 50%;
+    height: 60%;
 }
 
 #q2top {
